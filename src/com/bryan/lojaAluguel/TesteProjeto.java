@@ -13,7 +13,7 @@ public class TesteProjeto {
 		VestidoDebutante debutante = new VestidoDebutante();
 		VestidoMadrinha madrinha = new VestidoMadrinha();
 		
-		System.out.println("Escolha conforme as opções:");
+		System.out.println("Escolha conforme as opï¿½ï¿½es:");
 		System.out.println("1 - Cadastrar cliente");
 		System.out.println("2 - Cadastrar vestido de noiva");
 		System.out.println("3 - Cadastrar vestido de madrinha");
@@ -29,7 +29,7 @@ public class TesteProjeto {
 			System.out.println("Nome: " + cliente.nome);
 			System.out.println("CPF: " + cliente.CPF);
 			System.out.println("Telefone: " + cliente.telefone);
-			System.out.println("Endereço: " + cliente.endereco);
+			System.out.println("Endereï¿½o: " + cliente.endereco);
 			System.out.println("ID do cliente: " + cliente.cliente);
 		break;
 		case 2:
@@ -41,11 +41,11 @@ public class TesteProjeto {
 			System.out.println("ID: " + noiva.ID);
 			System.out.println("Quantidade: " + noiva.quantidade);
 			System.out.println("Cor: " + noiva.cor);
-			System.out.println("Classificação: " + noiva.classificacao);
+			System.out.println("Classificaï¿½ï¿½o: " + noiva.classificacao);
 			System.out.println("Modelo: " + noiva.modelo);
 			System.out.println("Comprimento: " + noiva.comprimento);
 			System.out.println("Cauda: " + noiva.cauda);
-			System.out.println("Véu: " + noiva.veu);
+			System.out.println("Vï¿½u: " + noiva.veu);
 		break;
 		case 3:
 			System.out.println("Cadastrando vestido de noiva");
@@ -56,7 +56,7 @@ public class TesteProjeto {
 			System.out.println("ID: " + madrinha.ID);
 			System.out.println("Quantidade: " + madrinha.quantidade);
 			System.out.println("Cor: " + madrinha.cor);
-			System.out.println("Classificação: " + madrinha.classificacao);
+			System.out.println("Classificaï¿½ï¿½o: " + madrinha.classificacao);
 			System.out.println("Modelo: " + madrinha.modelo);
 			System.out.println("Comprimento: " + madrinha.comprimento);
 			System.out.println("Hora da festa: " + madrinha.horaFesta);
@@ -65,12 +65,12 @@ public class TesteProjeto {
 			System.out.println("Cadastrando vestido de noiva");
 			debutante.cadastroRoupa(entrada);
 			debutante.cadastrarVestido(entrada);
-			debutante.cadastrarVestDebutante();
+			debutante.cadastrarVestDebutante(entrada);
 			System.out.println("Dados do vestido cadastrado:");
 			System.out.println("ID: " + debutante.ID);
 			System.out.println("Quantidade: " + debutante.quantidade);
 			System.out.println("Cor: " + debutante.cor);
-			System.out.println("Classificação: " + debutante.classificacao);
+			System.out.println("Classificaï¿½ï¿½o: " + debutante.classificacao);
 			System.out.println("Modelo: " + debutante.modelo);
 			System.out.println("Comprimento: " + debutante.comprimento);
 			System.out.println("Hora da festa: " + debutante.uso);
